@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" namespace="https://kie.org/bpmn/_E382F849-C28F-44C8-A9DD-82020533DA7C" id="_B35D29C7-8486-4AF9-A2F6-631F620F6909" name="BPMN_15C70788-A392-4E9C-9DDF-C46DED9B1296" targetNamespace="https://kie.apache.org/bpmn/_BB55FD21-8225-4EA3-9611-4B3F7A5547EA" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <process id="test-github" isExecutable="true" drools:adHoc="false">
+    <task id="_BB4CCF54-BCAB-4E59-8119-3776B0D91AE0" name="New Task" />
+    <subProcess id="_C3C06587-2840-4147-A71A-C362E8C287F1" name="New Sub-process" triggeredByEvent="false">
+      <extensionElements>
+        <drools:metaData name="customAsync">
+          <drools:metaValue>false</drools:metaValue>
+        </drools:metaData>
+      </extensionElements>
+    </subProcess>
+  </process>
+  <bpmndi:BPMNDiagram id="_F08E6BD3-AF27-4CE8-9C6C-E6A7211CC8B6">
+    <bpmndi:BPMNPlane id="_6AC90E2C-0EC1-44A9-B3FB-D8DAE94F6D11">
+      <bpmndi:BPMNShape id="_4B5F259F-9435-41C3-A70A-32B248943109" bpmnElement="_BB4CCF54-BCAB-4E59-8119-3776B0D91AE0">
+        <dc:Bounds x="240" y="220" width="180" height="100" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_8FD79750-5DF2-4F82-9945-D91D77403C32" bpmnElement="_C3C06587-2840-4147-A71A-C362E8C287F1">
+        <dc:Bounds x="500" y="100" width="500" height="300" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
